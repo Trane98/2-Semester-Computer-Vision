@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread(r"C:\Program Files (x86)\2 Semester python work\2-Semester-Computer-Vision\Intro_for_Computer_vision.py\fruits_hsv.jpg", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread(r"2-Semester-Computer-Vision\Intro_for_Computer_vision.py\fruits_hsv.jpg", cv2.IMREAD_GRAYSCALE)
 
 # Define the Horizontal Sobel Kernel
 sobel_x = np.array([[-1, 0, 1], 
